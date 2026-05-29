@@ -103,11 +103,6 @@ class Ray:
                                     int(pts[i][0]), int(pts[i][1]),
                                     int(pts[i+1][0]), int(pts[i+1][1]),
                                     self.color)
-        # Draw a brighter tip for the head
-        # if self.alive and pts:
-        #     px, py = pts[-1]
-        #     pygame.gfxdraw.aacircle(surf, int(px), int(py), 3, self.color)
-        #     pygame.gfxdraw.filled_circle(surf, int(px), int(py), 3, self.color)
 
 
 # --- Game ---
